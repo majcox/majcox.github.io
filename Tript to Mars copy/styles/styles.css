@@ -1,0 +1,175 @@
+body{
+    background-image: radial-gradient(circle, #929292, #828282, #737373, #646464, #555555);
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+h1{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+h2{
+    font-family: 'Righteous', cursive;
+}
+
+p{
+    font-family: 'Righteous', cursive;
+}
+
+.mars{
+    float: right;
+}
+.column {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 90vh;
+  
+    /* border-style: solid;
+    border-color: white; */
+  }
+  
+  .columnIcon {
+
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.earth{ 
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    width: 100%;
+}
+
+.earth img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.mars{
+    margin: auto;
+    position: absolute;
+    left: auto;
+    right: auto;
+    width: 100%;
+    
+  }
+
+.mars img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+
+.rocket {
+    margin: auto;
+    position: absolute;
+    left: auto;
+    right: auto;
+    width: 100%;
+}
+
+.rocket img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 154%;
+    width: 18%;
+}
+
+.information{
+    text-align: center;
+    color: white;
+}
+
+.panelfuel{
+    background: rgb(255, 210, 88);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.panelwater{
+    background: rgb(115, 164, 255);
+    float: right;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.panelfood{
+    background: rgb(255, 103, 103);
+    float: left;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.icon img{
+    display: block;
+    margin: auto;
+}
+
+.icon{
+    width: 100%;
+    height: 12%;
+    position: absolute;
+    z-index: 100;
+}
+
+.icon1 {
+    width: 50%;
+    height: 12%;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+}
+
+.icon1 img{
+    display: block;
+    margin: auto;
+}
+
+.icon2 {
+    width: 50%;
+    height: 12%;
+    position: absolute;
+    z-index: 100;
+    right: 0;
+}
+
+.icon2 img{
+    display: block;
+    margin: auto;
+}
+
